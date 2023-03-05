@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+
+<h1>Code Generator</h1>
+
+<form method="post">
+    <div>
+        <label for="handlerFileName">Handler File Name:</label>
+        <input type="text" name="handlerFileName" id="handlerFileName" />
+    </div>
+    <div>
+        <label for="handlerFilePath">Handler File Path:</label>
+        <input type="text" name="handlerFilePath" id="handlerFilePath" />
+    </div>
+    <div>
+        <label for="serviceRequest">Service Request (JSON):</label>
+        <textarea name="serviceRequest" id="serviceRequest" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <button type="submit">Generate Code</button>
+    </div>
+</form>
